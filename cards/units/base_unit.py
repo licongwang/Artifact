@@ -1,7 +1,6 @@
 class BaseUnit(object):
     def __init__(self, info):
-        self.attack, self.armor, self.health, self.spell, self.retaliate, self.cleave = info
-        self.color = None
+        self.color, self.attack, self.armor, self.health, self.spell, self.retaliate, self.cleave = info
         self.cost = 0
         self.spell = None
         self.attack_direction = None
